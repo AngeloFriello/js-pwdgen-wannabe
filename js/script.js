@@ -10,13 +10,13 @@ console.log(userName)
 //   - dichiarare una variabile
 let surName
 //   - assegnare alla variabile il valore restituito da un prompt
-surName = prompt('qualè il tuo cognome?')
+surName = prompt("qual'è il tuo cognome?")
 console.log(surName)
 //- chiedere il colore preferito all'utente
 //   - dichiarare una variabile
 let colorPrefer
 //   - assegnare alla variabile il valore restituito da un prompt
-surName = prompt('qualè il tuo colore preferito?')
+colorPrefer = prompt("qual'è il tuo colore preferito?")
 console.log(colorPrefer)
 //- generare un numero in modo automatico
 //   -generare un numero
@@ -27,6 +27,8 @@ const messageDomElement = document.getElementById('password')
 console.dir(messageDomElement)
 //   - unire tutti i valore ricevuti dai prompt per ottenere la pw
 let password = userName + surName + colorPrefer + num
+//   -aggiungere un messagio che dica che è stata generata la pw
+let firstPartMessage = ('questa è la tua password: ')
 
 
-messageDomElement.innerHTML = password
+messageDomElement.innerHTML = firstPartMessage + password
