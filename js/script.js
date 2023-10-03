@@ -23,4 +23,10 @@ console.log(colorPrefer)
 let num = Math.floor(Math.random()*100);
 alert(num);
 //-   generare la password all'utente
-//   - unire tutti i valore ricevuti dai prompt per ottenere la pw 
+const messageDomElement = document.getElementById('password')
+console.dir(messageDomElement)
+//   - unire tutti i valore ricevuti dai prompt per ottenere la pw
+let password = userName + surName + colorPrefer + num
+
+
+messageDomElement.innerHTML = password
