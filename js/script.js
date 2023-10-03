@@ -20,8 +20,7 @@ surName = prompt('qualè il tuo colore preferito?')
 console.log(colorPrefer)
 //- generare un numero in modo automatico
 //   -generare un numero
-//- creare un messaggio di saluti all'utente
-//   - dichiarare una variabile
-//   - assegnare alla variabile un ciao seguito dal valore restituito dal prompt name
+let num = Math.floor(Math.random()*100);
+alert(num);
 //-   generare la password all'utente
 //   - unire tutti i valore ricevuti dai prompt per ottenere la pw 
