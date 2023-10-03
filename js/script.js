@@ -10,10 +10,14 @@ console.log(userName)
 //   - dichiarare una variabile
 let surName
 //   - assegnare alla variabile il valore restituito da un prompt
-surName =prompt('qualè il tuo cognome?')
+surName = prompt('qualè il tuo cognome?')
+console.log(surName)
 //- chiedere il colore preferito all'utente
 //   - dichiarare una variabile
+let colorPrefer
 //   - assegnare alla variabile il valore restituito da un prompt
+surName = prompt('qualè il tuo colore preferito?')
+console.log(colorPrefer)
 //- generare un numero in modo automatico
 //   -generare un numero
 //- creare un messaggio di saluti all'utente
